@@ -5,10 +5,12 @@ FxAdapter
 
 
 #Download：
+
    	compile 'com.github.fxx028:FxAdapter:1.0' 
    	
    	
 #Usage:
+
        private CommonAdapter<String> adapter;
        private List<String> list = new ArrayList<>();
        nineRecyclerview.setLayoutManager(new FullyLinearLayoutManager(this,3));
